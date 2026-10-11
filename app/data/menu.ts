@@ -692,21 +692,21 @@ export const products = [
     category: "wrap",
     name: "Vejeteryan Wrap",
     description: "Taze sebzelerle hazırlanan özel wrap.",
-    price: 350,
+    price: 400,
   },
   {
     id: "tavuklu-wrap",
     category: "wrap",
     name: "Tavuklu Wrap",
     description: "Özel soslarla hazırlanan tavuklu wrap.",
-    price: 450,
+    price: 530,
   },
   {
     id: "et-wrap",
     category: "wrap",
     name: "Et Wrap",
     description: "Lezzetli et ve özel soslarla hazırlanır.",
-    price: 550,
+    price: 600,
   },
 
   // MAKARNA
@@ -715,21 +715,21 @@ export const products = [
     category: "pasta",
     name: "Arabiatta",
     description: "Özel acılı domates sosuyla hazırlanır.",
-    price: 400,
+    price: 450,
   },
   {
     id: "fettuccine-alfredo",
     category: "pasta",
     name: "Fettuccine Alfredo",
     description: "Kremalı özel Alfredo sosuyla hazırlanır.",
-    price: 500,
+    price: 560,
   },
   {
     id: "spagetti",
     category: "pasta",
     name: "Spagetti",
     description: "İtalyan mutfağından klasik spagetti.",
-    price: 600,
+    price: 650,
   },
 
   // HAMBURGER
@@ -738,28 +738,28 @@ export const products = [
     category: "burger",
     name: "Tavuk Burger",
     description: "Özel İzzaro dokunuşuyla hazırlanan tavuk burger.",
-    price: 400,
+    price: 500,
   },
   {
     id: "classic-burger",
     category: "burger",
     name: "Classic Burger",
     description: "Klasik burger lezzetinin İzzaro yorumu.",
-    price: 450,
+    price: 550,
   },
   {
     id: "cheeseburger",
     category: "burger",
     name: "Cheeseburger",
     description: "Burger ve eritilmiş peynirin uyumu.",
-    price: 550,
+    price: 600,
   },
   {
     id: "izzaro-burger",
     category: "burger",
     name: "İzzaro Burger",
     description: "İzzaro'ya özel premium burger.",
-    price: 600,
+    price: 670,
   },
 
   // SALATA
@@ -768,14 +768,14 @@ export const products = [
     category: "salad",
     name: "Mevsim Salata",
     description: "Günün taze sebzeleriyle hazırlanır.",
-    price: 400,
+    price: 450,
   },
   {
     id: "sezar-salata",
     category: "salad",
     name: "Sezar Salata",
     description: "Taze malzemelerle hazırlanan Sezar salata.",
-    price: 500,
+    price: 550,
   },
 
   // FAJITA
@@ -784,21 +784,21 @@ export const products = [
     category: "fajita",
     name: "Tavuklu Mantarlı Krep",
     description: "Tavuk ve mantarın özel krep ile buluşması.",
-    price: 650,
+    price: 720,
   },
   {
     id: "tavuk-fajita",
     category: "fajita",
     name: "Tavuk Fajita",
     description: "Özel baharatlarla hazırlanan tavuk fajita.",
-    price: 700,
+    price: 800,
   },
   {
     id: "et-fajita",
     category: "fajita",
     name: "Et Fajita",
     description: "Özel baharatlarla hazırlanan et fajita.",
-    price: 800,
+    price: 900,
   },
 
   // ATIŞTIRMALIK
@@ -807,21 +807,21 @@ export const products = [
     category: "snacks",
     name: "Soğan Halkası",
     description: "Çıtır soğan halkaları.",
-    price: 200,
+    price: 250,
   },
   {
     id: "cips",
     category: "snacks",
     name: "Cips",
     description: "Çıtır patates cipsi.",
-    price: 300,
+    price: 350,
   },
   {
     id: "bira-tabagi",
     category: "snacks",
     name: "Bira Tabağı",
     description: "Cips, soğan halkası, çıtır tavuk, eriyen peynir ve patates.",
-    price: 700,
+    price: 800,
   },
 
   // TOST
@@ -830,21 +830,21 @@ export const products = [
     category: "toast",
     name: "Kaşarlı Tost",
     description: "Eritilmiş kaşar peyniriyle klasik tost.",
-    price: 300,
+    price: 350,
   },
   {
     id: "karisik-tost",
     category: "toast",
     name: "Karışık Tost",
     description: "Bol malzemeli sıcak tost.",
-    price: 350,
+    price: 400,
   },
   {
     id: "tavuklu-tost",
     category: "toast",
     name: "Tavuklu Tost",
     description: "Tavuk ve kaşarın sıcak buluşması.",
-    price: 350,
+    price: 450,
   },
 
   // PIZZA
@@ -854,9 +854,9 @@ export const products = [
     name: "Vejeteryan Pizza",
     description: "Taze sebzelerle hazırlanan özel pizza.",
     sizes: [
-      { name: "Küçük", price: 400 },
-      { name: "Orta", price: 500 },
-      { name: "Büyük", price: 600 },
+      { name: "Küçük", price: 450 },
+      { name: "Orta", price: 550 },
+      { name: "Büyük", price: 650 },
     ],
   },
   {
@@ -865,9 +865,9 @@ export const products = [
     name: "Tavuklu Pizza",
     description: "Özel malzemelerle hazırlanan tavuklu pizza.",
     sizes: [
-      { name: "Küçük", price: 450 },
-      { name: "Orta", price: 550 },
-      { name: "Büyük", price: 700 },
+      { name: "Küçük", price: 500 },
+      { name: "Orta", price: 600 },
+      { name: "Büyük", price: 750 },
     ],
   },
   {
@@ -876,9 +876,9 @@ export const products = [
     name: "Karışık Pizza",
     description: "Bol malzemeli, özel İzzaro pizzası.",
     sizes: [
-      { name: "Küçük", price: 500 },
-      { name: "Orta", price: 600 },
-      { name: "Büyük", price: 700 },
+      { name: "Küçük", price: 550 },
+      { name: "Orta", price: 650 },
+      { name: "Büyük", price: 750 },
     ],
   },
   {
@@ -887,9 +887,9 @@ export const products = [
     name: "BBQ Pizza",
     description: "Özel BBQ sosuyla hazırlanan pizza.",
     sizes: [
-      { name: "Küçük", price: 500 },
-      { name: "Orta", price: 600 },
-      { name: "Büyük", price: 750 },
+      { name: "Küçük", price: 550 },
+      { name: "Orta", price: 650 },
+      { name: "Büyük", price: 800 },
     ],
   },
 
